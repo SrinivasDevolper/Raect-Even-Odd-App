@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container div {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bg-container h1 {
+  font-family: 'Roboto';
+}
+
+.bg-container p {
+  color: #334155;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.bg-container button {
+  color: #1e293b;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.bg-container button:hover {
+  outline: 2px solid #000000;
+  cursor: pointer;
+}
